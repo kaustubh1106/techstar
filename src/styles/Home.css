@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Dancing+Script:wght@500&family=Inter:wght@200&family=Playfair+Display&display=swap');
+.home1 {
+    height: 720px;
+   background-image: url(../assets/1.jpeg);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom:50px;
+   border: 5px solid #fff; /* Add your border properties here */
+   box-sizing: border-box;
+   border-radius: 50px;
+}
+
+
+
+.text > h1,h2,p{
+    font-family: 'Dancing Script', cursive;
+}
+
+.text > h1{
+    font-size: 100px;
+}
+.home{
+    color: white;
+    padding: 40px;
+    min-height: 100vh;
+    background-color: #09143C;  
+    overflow: hidden;
+}
+
+.text > h2{
+    font-size: 60px;
+}
+.home-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#input{
+    background-color: var(--color-realbox-background);
+    border: none;
+    border-radius: var(--ntp-realbox-border-radius);
+    color: var(--color-realbox-foreground);
+    font-family: inherit;
+    font-size: inherit;
+    height: 100%;
+    outline: 0;
+    padding-inline-end: calc(var(--ntp-realbox-voice-icon-offset) + var(--ntp-realbox-icon-width) + var(--ntp-realbox-inner-icon-margin));
+    padding-inline-start: 52px;
+    position: relative;
+    width: 100%;
+}
+.text-img{
+    
+}
+/* Basic styling for the card */
+.card {
+    width: 300px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .home2{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+  }
+  .card{
+      margin:10px;
+  }
+  .btn1{
+      background-color: #09143C;
+      color: #e5e5e5;
+      border: none;
+      
+      
+      padding: 10px;
+  }
+  /* Styling for the image inside the card */
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px; /* Add some space between the image and the type */
+  }
+  
+  /* Styling for the type text inside the card */
+  .card .type {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+
+
+/* Basic styling for the card */
+.card {
+    width: 300px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  }
+  .content{
+      display: flex;
+      align-items: center;
+  }
+
+  .card:hover{
+    transform: scale(1.2);
+  }
+
+  

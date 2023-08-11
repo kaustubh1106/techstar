@@ -1,0 +1,25 @@
+.footer-1{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-1 > input{
+    max-width: 200px;
+}
+
+.footer-1 > button{
+    max-width: 70px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-2{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}

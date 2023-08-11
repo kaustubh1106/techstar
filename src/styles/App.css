@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@300&family=Roboto:wght@100&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto',sans-serif;
+    
+}
+
+.navbar{
+    
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.navbar > h1{
+    margin: 30px;
+}
+.navbar > main{
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Inter',sans-serif !important;
+}
+
+#h, #a, #c, #s,#b{
+    margin: 20px;
+    text-decoration: none;
+    color: #09143C;
+}
+
+#h:hover, #a:hover, #c:hover, #s:hover,#b:hover{
+    color: black;
+    transform: scale(1.2);
+}
+
+
+
+
